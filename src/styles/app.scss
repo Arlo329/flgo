@@ -1,0 +1,24 @@
+// conmon 样式
+@import './common/icons.scss';
+@import './yo/usage/core/reset.scss';
+@import './common/font-size.scss';
+
+// home 样式
+@import './home/home.scss';
+
+// top 样式
+@import './top/top.scss';
+
+#app{
+    height: 100%;
+}
+
+
+
+.to{
+    // line-height: 2rem;
+    // font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
