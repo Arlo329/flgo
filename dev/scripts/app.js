@@ -163,7 +163,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar homeTpl = __webpack_requi
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar classTpl = __webpack_require__(/*! ../views/home_class.html */ \"./src/views/home_class.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.header').html(classTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_class.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar classTpl = __webpack_require__(/*! ../views/home_class.html */ \"./src/views/home_class.html\");\n\nvar headerTpl = __webpack_require__(/*! ../views/home_class_header.html */ \"./src/views/home_class_header.html\");\n\nvar mainTpl = __webpack_require__(/*! ../views/home_class_main.html */ \"./src/views/home_class_main.html\");\n\nvar footerTpl = __webpack_require__(/*! ../views/home_footer.html */ \"./src/views/home_footer.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.container').html(classTpl);\n    $('.home-class-header').html(headerTpl);\n    $('.home-class-main').html(mainTpl);\n    $('.footer').html(footerTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_class.js?");
 
 /***/ }),
 
@@ -175,7 +175,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar classTpl = __webpack_requ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar meTpl = __webpack_require__(/*! ../views/home_me.html */ \"./src/views/home_me.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.header').html(meTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_me.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar meTpl = __webpack_require__(/*! ../views/home_me.html */ \"./src/views/home_me.html\");\n\nvar headerTpl = __webpack_require__(/*! ../views/home_me_header.html */ \"./src/views/home_me_header.html\");\n\nvar mainTpl = __webpack_require__(/*! ../views/home_me_main.html */ \"./src/views/home_me_main.html\");\n\nvar footerTpl = __webpack_require__(/*! ../views/home_footer.html */ \"./src/views/home_footer.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.container').html(meTpl);\n    $('.home-me-header').html(headerTpl);\n    $('.home-me-main').html(mainTpl);\n    $('.footer').html(footerTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_me.js?");
 
 /***/ }),
 
@@ -187,7 +187,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar meTpl = __webpack_require
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar nineTpl = __webpack_require__(/*! ../views/home_nine.html */ \"./src/views/home_nine.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.header').html(nineTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_nine.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar nineTpl = __webpack_require__(/*! ../views/home_nine.html */ \"./src/views/home_nine.html\");\n\nvar headerTpl = __webpack_require__(/*! ../views/home_nine_header.html */ \"./src/views/home_nine_header.html\");\n\nvar mainTpl = __webpack_require__(/*! ../views/home_nine_main.html */ \"./src/views/home_nine_main.html\");\n\nvar footerTpl = __webpack_require__(/*! ../views/home_footer.html */ \"./src/views/home_footer.html\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.container').html(nineTpl);\n    $('.home-nine-header').html(headerTpl);\n    $('.home-nine-main').html(mainTpl);\n    $('.footer').html(footerTpl);\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_nine.js?");
 
 /***/ }),
 
@@ -199,7 +199,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar nineTpl = __webpack_requi
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar headerTpl = __webpack_require__(/*! ../views/home_page_header.html */ \"./src/views/home_page_header.html\");\n\nvar mainTpl = __webpack_require__(/*! ../views/home_page_main.html */ \"./src/views/home_page_main.html\");\n\nvar BScroll = __webpack_require__(/*! better-scroll */ \"./node_modules/better-scroll/dist/bscroll.esm.js\")[\"default\"];\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.header').html(headerTpl);\n    $('.main').html(mainTpl);\n    var banner = new Swiper('.swiper-container', {\n      autoplay: {\n        stopOnLastSlide: false,\n        disableOnInteraction: false,\n        delay: 1000\n      },\n      loop: true\n    });\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar pageTpl = __webpack_require__(/*! ../views/home_page.html */ \"./src/views/home_page.html\");\n\nvar headerTpl = __webpack_require__(/*! ../views/home_page_header.html */ \"./src/views/home_page_header.html\");\n\nvar mainTpl = __webpack_require__(/*! ../views/home_page_main.html */ \"./src/views/home_page_main.html\");\n\nvar footerTpl = __webpack_require__(/*! ../views/home_footer.html */ \"./src/views/home_footer.html\");\n\nvar BScroll = __webpack_require__(/*! better-scroll */ \"./node_modules/better-scroll/dist/bscroll.esm.js\")[\"default\"];\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: function render() {\n    $('.container').html(pageTpl);\n    $('.header').html(headerTpl);\n    $('.main').html(mainTpl);\n    $('.footer').html(footerTpl);\n    var banner = new Swiper('.swiper-container', {\n      autoplay: {\n        stopOnLastSlide: false,\n        disableOnInteraction: false,\n        delay: 1000\n      },\n      loop: true\n    });\n  }\n});\n\n//# sourceURL=webpack:///./src/controllers/home_page.js?");
 
 /***/ }),
 
@@ -258,7 +258,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<div class=\\\"container\\\">    <div class=\\\"header\\\"></div>    <div class=\\\"main\\\"></div>    <div class=\\\"footer\\\">        <ul class=\\\"tabbar\\\">            <li class=\\\"active\\\">                <a href=\\\"#/index/home/page\\\">                    <i class=\\\"yo-ico\\\">&#xe882;</i>                    <span>首页</span>                </a>            </li>            <li>                <a href=\\\"#/index/home/nine\\\">                    <i class=\\\"yo-ico\\\">&#xe6e3;</i>                    <span>9.9包邮</span>                </a>            </li>            <li>                <a href=\\\"#/index/top/rank\\\">                    <i class=\\\"yo-ico ico-top\\\"></i>                    <span>TOP榜</span>                </a>            </li>            <li>                <a href=\\\"#/index/home/class\\\">                    <i class=\\\"yo-ico\\\">&#xe696;</i>                    <span>分类</span>                </a>            </li>            <li>                <a href=\\\"#/index/home/me\\\">                    <i class=\\\"yo-ico\\\">&#xe70b;</i>                    <span>我的</span>                </a>            </li>        </ul>    </div></div>\"\n\n//# sourceURL=webpack:///./src/views/home.html?");
+eval("module.exports = \"<div class=\\\"container\\\"></div>\"\n\n//# sourceURL=webpack:///./src/views/home.html?");
 
 /***/ }),
 
@@ -269,7 +269,40 @@ eval("module.exports = \"<div class=\\\"container\\\">    <div class=\\\"header\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<h1>class页</h1>\"\n\n//# sourceURL=webpack:///./src/views/home_class.html?");
+eval("module.exports = \"<div class=\\\"home-class-header\\\"></div><div class=\\\"home-class-main\\\"></div><div class=\\\"footer\\\"></div>\"\n\n//# sourceURL=webpack:///./src/views/home_class.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_class_header.html":
+/*!******************************************!*\
+  !*** ./src/views/home_class_header.html ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<a href=\\\"#\\\" class=\\\"arrow-l\\\"></a><div class=\\\"class-search-bar\\\">    <i></i>    <span>夏日驱蚊</span></div>\"\n\n//# sourceURL=webpack:///./src/views/home_class_header.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_class_main.html":
+/*!****************************************!*\
+  !*** ./src/views/home_class_main.html ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"class-side\\\">    <ul>        <li class=\\\"active\\\">女装</li>        <li>男装</li>        <li>美食</li>        <li>美妆</li>        <li>居家日用</li>        <li>鞋品</li>        <li>数码家电</li>        <li>文娱车品</li>        <li>内衣</li>        <li>母婴</li>        <li>箱包</li>        <li>配饰</li>        <li>家装家纺</li>        <li>户外运动</li>        <p class=\\\"bg-item\\\"></p>    </ul></div><div class=\\\"class-con\\\">    <div class=\\\"ad\\\">        <a href=\\\"#\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i3/2053469401/O1CN01UnLFD62JJhwmwm2Ym_!!2053469401.jpg\\\" alt=\\\"\\\">        </a>    </div>    <ul class=\\\"sub-class-list\\\">        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>        <li>            <a href=\\\"#\\\">                <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01qj2Uul2JJhwm730r4-2053469401.png_310x310.jpg_.webp\\\"                    alt=\\\"\\\">                T恤/短袖            </a>        </li>    </ul></div>\"\n\n//# sourceURL=webpack:///./src/views/home_class_main.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_footer.html":
+/*!************************************!*\
+  !*** ./src/views/home_footer.html ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<ul class=\\\"tabbar\\\">    <li class=\\\"active\\\">        <a href=\\\"#/index/home/page\\\">            <i class=\\\"yo-ico\\\">&#xe882;</i>            <span>首页</span>        </a>    </li>    <li>        <a href=\\\"#/index/home/nine\\\">            <i class=\\\"yo-ico\\\">&#xe6e3;</i>            <span>9.9包邮</span>        </a>    </li>    <li>        <a href=\\\"#/index/top/rank\\\">            <i class=\\\"yo-ico ico-top\\\"></i>            <span>TOP榜</span>        </a>    </li>    <li>        <a href=\\\"#/index/home/class\\\">            <i class=\\\"yo-ico\\\">&#xe696;</i>            <span>分类</span>        </a>    </li>    <li>        <a href=\\\"#/index/home/me\\\">            <i class=\\\"yo-ico\\\">&#xe70b;</i>            <span>我的</span>        </a>    </li></ul>\"\n\n//# sourceURL=webpack:///./src/views/home_footer.html?");
 
 /***/ }),
 
@@ -280,7 +313,29 @@ eval("module.exports = \"<h1>class页</h1>\"\n\n//# sourceURL=webpack:///./src/v
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<h1>我的页</h1>\"\n\n//# sourceURL=webpack:///./src/views/home_me.html?");
+eval("module.exports = \"<div class=\\\"home-me-header\\\"></div><div class=\\\"home-me-main\\\"></div><div class=\\\"footer\\\"></div>\"\n\n//# sourceURL=webpack:///./src/views/home_me.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_me_header.html":
+/*!***************************************!*\
+  !*** ./src/views/home_me_header.html ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"usr-info\\\">    <a href=\\\"#\\\">        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/user_info_tx.png?v=201906061803\\\" alt=\\\"\\\">    </a>    <p><a href=\\\"#\\\">登录</a>/<a href=\\\"#\\\">注册</a></p></div><i class=\\\"yo-ico ico-setting\\\">&#xe70b;</i>\"\n\n//# sourceURL=webpack:///./src/views/home_me_header.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_me_main.html":
+/*!*************************************!*\
+  !*** ./src/views/home_me_main.html ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<ul class=\\\"nav-part nav-part-I\\\">    <li>        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/icon/wode_icon_like.svg\\\" alt=\\\"\\\">        <p>我的收藏</p>        <i class=\\\"yo-ico ico-arrow-r\\\">&#xe70b;</i>    </li>    <li>        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/icon/wode_icon_history.svg\\\" alt=\\\"\\\">        <p>浏览记录</p>        <i class=\\\"yo-ico ico-arrow-r\\\">&#xe70b;</i>    </li></ul><ul class=\\\"nav-part nav-part-II\\\">    <li>        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/icon/wode_icon_feedback.svg\\\" alt=\\\"\\\">        <p>意见反馈</p>        <i class=\\\"yo-ico ico-arrow-r\\\">&#xe70b;</i>    </li>    <li>        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/icon/wode_icon_servicer.svg\\\" alt=\\\"\\\">        <p>联系客服</p>        <i class=\\\"yo-ico ico-arrow-r\\\">&#xe70b;</i>    </li>    <li>        <img src=\\\"https://cmsstatic.dataoke.com//wap_new/user/images/icon/wode_icon_help.svg\\\" alt=\\\"\\\">        <p>领券帮助</p>        <i class=\\\"yo-ico ico-arrow-r\\\">&#xe70b;</i>    </li></ul>\"\n\n//# sourceURL=webpack:///./src/views/home_me_main.html?");
 
 /***/ }),
 
@@ -291,7 +346,40 @@ eval("module.exports = \"<h1>我的页</h1>\"\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<h1>9.9 折包邮也</h1>\"\n\n//# sourceURL=webpack:///./src/views/home_nine.html?");
+eval("module.exports = \"<div class=\\\"home-nine-header\\\"></div><div class=\\\"home-nine-main\\\"></div><div class=\\\"footer\\\"></div>\"\n\n//# sourceURL=webpack:///./src/views/home_nine.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_nine_header.html":
+/*!*****************************************!*\
+  !*** ./src/views/home_nine_header.html ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"con\\\">    <a class=\\\"back\\\" href=\\\"#\\\"></a>    <img src=\\\"https://cmsstatic.dataoke.com//web/nine_special/images/nine_title.svg?v=201906061803\\\" alt=\\\"\\\">    <i class=\\\"menu\\\"></i></div>\"\n\n//# sourceURL=webpack:///./src/views/home_nine_header.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_nine_main.html":
+/*!***************************************!*\
+  !*** ./src/views/home_nine_main.html ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"top-ads\\\">    <ul>        <li class=\\\"item-big\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/TB24BorFamWBuNjy1XaXXXCbXXa-2053469401.jpg\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>9块9每日精选</h3>                <p>十元封顶</p>            </div>        </li>        <li class=\\\"item-small\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i2/2053469401/O1CN01h6zuUw2JJhwuUJm8n_!!2053469401.png\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>笔纸用品</h3>                <p>考试必备</p>            </div>        </li>        <li class=\\\"item-small\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i2/2053469401/O1CN016k73VX2JJhwrvvBaH_!!2053469401.png\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>方便速食</h3>                <p>酸辣鲜爽</p>            </div>        </li>        <li class=\\\"item-big\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i4/2053469401/O1CN012JJhs4JIkJiFavo-2053469401.jpg\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>29.9专区</h3>                <p>半价抢不停</p>            </div>        </li>        <li class=\\\"item-small\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i4/2053469401/O1CN01EYROfr2JJhwtmb1KF_!!2053469401.png\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>纯棉毛巾</h3>                <p>超软舒适</p>            </div>        </li>        <li class=\\\"item-small\\\">            <img src=\\\"https://img.alicdn.com/imgextra/i1/2053469401/O1CN01uDc5u32JJhwp6x8Qa_!!2053469401.png\\\" alt=\\\"\\\">            <div class=\\\"desc\\\">                <h3>生活用纸</h3>                <p>19.9元封顶</p>            </div>        </li>    </ul></div>\"\n\n//# sourceURL=webpack:///./src/views/home_nine_main.html?");
+
+/***/ }),
+
+/***/ "./src/views/home_page.html":
+/*!**********************************!*\
+  !*** ./src/views/home_page.html ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"header\\\"></div><div class=\\\"main\\\"></div><div class=\\\"footer\\\"></div>\"\n\n//# sourceURL=webpack:///./src/views/home_page.html?");
 
 /***/ }),
 

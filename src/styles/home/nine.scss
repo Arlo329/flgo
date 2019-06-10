@@ -1,0 +1,106 @@
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .home-nine-header{
+        display: flex;
+        height: 0.44rem;
+        padding: .08rem .1rem;
+        background: linear-gradient(to left,#FA4DBE 0,#FBAA58 100%);
+        .con{
+           flex: 1;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           position: relative;
+           .back{
+                display: block;
+                height: .28rem;
+                width: .28rem;
+                background: url("https://cmsstatic.dataoke.com/web/images/cms-img.png?v=2019-06-06") no-repeat -.32rem 0;
+                background-size: 2.87rem 8rem;
+                position: absolute;
+                left: 0;
+           }
+           img{
+                width: .65rem;
+                height: .26rem;
+           }
+           .menu{
+               display: block;
+               height: .28rem;
+               width: .28rem;
+               background: url('https://cmsstatic.dataoke.com//web/images/cms-img.png?v=2019-06-06') no-repeat -2.43rem 0;
+               background-size: 2.87rem 8rem;
+               position: absolute;
+               right: 0;
+
+           }
+        }
+    }
+    .home-nine-main{
+        flex: 1;
+        overflow-y: auto;
+        display: flex;
+        .top-ads{
+            width: 100%;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    position: relative;
+                    &:nth-child(1){
+                        color: #FC4073; 
+                    }
+                    &:nth-child(2){
+                        color: #6495ED; 
+                    }
+                    &:nth-child(3){
+                        color: #BA55D3; 
+                    }
+                    &:nth-child(4){
+                        color: #FC4302; 
+                    }
+                    &:nth-child(5){
+                        color: #07C6B3; 
+                    }
+                    &:nth-child(6){
+                        color: #DB7093; 
+                    }
+                    .desc{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index: 2;
+                        padding-left: .1rem;
+                        h3{
+                            line-height: .23rem;
+                            font-size: .15rem;
+                            font-weight: 400;
+                        }
+                        p{
+                            color: #888;
+                            font-size: .12rem;
+                            line-height: .18rem;
+                        }
+                    }  
+                    &.item-big{
+                        width: 50%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    &.item-small{
+                        width: 25%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                
+            }
+        }
+       
+    }
+}

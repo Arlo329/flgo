@@ -103,7 +103,7 @@ function watcher(){
     // libs 的监听
     watch('./src/libs/**/*',series(clear('./dev/libs'),copyLibs))
     // images 的监听
-    watch('./src/images/**/*',series(clear('./dev/libs'),copyImages))
+    watch('./src/images/**/*',series(clear('./dev/images'),copyImages))
     // iconsfont 的监听
     watch('./src/icons/**/*',series(clear('./dev/icons'),copyIcons))
     // hmtl文件的监听

@@ -1,0 +1,111 @@
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .home-class-header{
+        display: flex;
+        height: 0.44rem;
+        padding: .08rem .1rem;
+        background: linear-gradient(to left,#FA4DBE 0,#FBAA58 100%);
+        .arrow-l{
+            display: inline-block;
+            height: .28rem;
+            width: .28rem;
+            background: url('https://cmsstatic.dataoke.com//web/images/cms-img.png?v=2019-06-06') -.32rem 0rem no-repeat;
+            background-size: 2.87rem 8rem;
+        }
+        .class-search-bar{
+            display: flex;
+            align-items: center;
+            height: .28rem;
+            color: #ccc;
+            background-color: #fff;
+            flex: 1;
+            border-radius: 5px;
+            i {
+                display: inline-block;
+                height: .24rem;
+                width: .24rem;
+                background: url('https://cmsstatic.dataoke.com//web/images/cms-img.png?v=2019-06-06') .06rem -.26rem no-repeat;
+                background-size: 2.87rem 8rem;
+            }
+        }
+    }
+    .home-class-main{
+        flex: 1;
+        overflow-y: auto;
+        display: flex;
+        .class-side{
+            flex: 2;
+            overflow-y: auto;
+            background-color: #F4F4F4;
+            ul{
+                position: relative;
+                li{
+                    height: .45rem;
+                    color: #333;
+                    text-align: center;
+                    font-size: .13rem;
+                    line-height: .45rem;
+                    &.active{
+                       color: #FC3F78; 
+                    }
+                    position: relative;
+                    z-index: 10;
+                }
+                .bg-item{
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+                    border-left: solid 2px #FC3F78;
+                    background-color: #fff;
+                    height: .45rem;
+                    width: 100%;
+                    z-index: 4;
+                }
+            }
+            
+        }
+        .class-con{
+            flex: 7;
+            overflow-y: auto;
+            background-color: #fff;
+            .ad{
+                min-height: .6rem;
+                margin: 0 .1rem;
+                padding-top: .1rem;
+                overflow: hidden;
+                img{
+                    border-radius: .05rem;
+                    width: 100%;
+                }
+            }
+            .sub-class-list{
+                width: 100%;
+                padding-top: .2rem;
+                li{
+                    float: left;
+                    width: 33%;
+                    height: 100px;
+                    a{
+                        display: block;
+                        font-size: 12px;
+                        color: #333;
+                        line-height: 25px;
+                        overflow: hidden;
+                        padding-bottom: 20px;
+                        text-align: center;
+                        img{
+                            display: block;
+                            width: 60%;
+                            min-width: .4rem;
+                            margin: auto;
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
